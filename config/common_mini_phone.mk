@@ -1,8 +1,8 @@
-# Inherit mini common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini.mk)
+# Inherit mini common Sprit stuff
+$(call inherit-product, vendor/sprit/config/common_mini.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME
 
-$(call inherit-product, vendor/lineage/config/telephony.mk)
+$(call inherit-product, vendor/sprit/config/telephony.mk)

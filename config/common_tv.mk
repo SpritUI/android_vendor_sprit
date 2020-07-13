@@ -1,16 +1,16 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common Sprit stuff
+$(call inherit-product, vendor/sprit/config/common.mk)
 
-# Inherit Lineage atv device tree
-$(call inherit-product, device/lineage/atv/lineage_atv.mk)
+# Inherit Sprit atv device tree
+$(call inherit-product, device/sprit/atv/lineage_atv.mk)
 
 # AOSP packages
 PRODUCT_PACKAGES += \
     LeanbackIME
 
-# Lineage packages
+# Sprit packages
 PRODUCT_PACKAGES += \
     AppDrawer \
-    LineageCustomizer
+    spritCustomizer
 
-DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/tv
+DEVICE_PACKAGE_OVERLAYS += vendor/sprit/overlay/tv

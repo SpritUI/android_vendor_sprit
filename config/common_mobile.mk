@@ -1,5 +1,5 @@
-# Inherit common mobile Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common mobile Sprit stuff
+$(call inherit-product, vendor/sprit/config/common.mk)
 
 # Default notification/alarm sounds
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Exchange2
 
-# Lineage packages
+# Sprit packages
 PRODUCT_PACKAGES += \
     AudioFX \
     Backgrounds \

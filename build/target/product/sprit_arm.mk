@@ -1,4 +1,5 @@
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2020 The SpritUI Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, build/target/product/aosp_x86.mk)
+$(call inherit-product, build/target/product/aosp_arm.mk)
 
-include vendor/lineage/build/target/product/lineage_generic_target.mk
+include vendor/exthm/build/target/product/exthm_generic_target.mk
 
 TARGET_USES_64_BIT_BINDER := true
 
-PRODUCT_NAME := lineage_x86
+PRODUCT_NAME := exthm_arm

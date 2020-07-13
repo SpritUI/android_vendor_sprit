@@ -1,12 +1,12 @@
 # Charger
-ifeq ($(WITH_LINEAGE_CHARGER),true)
+ifeq ($(WITH_sprit_CHARGER),true)
     BOARD_HAL_STATIC_LIBRARIES := libhealthd.lineage
 endif
 
-include vendor/lineage/config/BoardConfigKernel.mk
+include vendor/sprit/config/BoardConfigKernel.mk
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
-include vendor/lineage/config/BoardConfigQcom.mk
+include vendor/sprit/config/BoardConfigQcom.mk
 endif
 
-include vendor/lineage/config/BoardConfigSoong.mk
+include vendor/sprit/config/BoardConfigSoong.mk
